@@ -12,7 +12,7 @@ This is a template for the IMLV final project. It is based on the template creat
 - [ ] 2. In the Description field, write: "Bookdown source files for IMLV final project".
 
 ### Set up GitHub Pages	
-- [ ] 1. On the home page of your repo, click Settings. Click the "Pages" section on the left. Change **Source** from **None** to **main**, change **/ (root)** to **/docs** folder, and click Save. Above the **Source** line, a bar will appear with your book's URL. The bar will initially be blue and indicate that your book is *ready* to be published and will change to green once it is published. Copy the URL. (Note that sometimes there is a delay until your book actually appears at that URL. If it doesn't appear after a few minutes, make a change and commit it to trigger a GitHub Pages build.)	
+- [ ] 1. On the home page of your repo, click Settings. Click the "Pages" section on the left. In the **Build and Deployment** section, set **Source** to "Deploy from a branch" (Classic Pages experience) and **Branch** to **main** with **/docs** folder. Click Save. Above the **Build and Deployment** section, a box will appear with your book's URL. Copy the URL. (Note that sometimes there is a delay until your book actually appears at that URL. If it doesn't appear after a few minutes, make a change and commit it to trigger a GitHub Pages build.)	
 
 - [ ] 2. Click the gear button near "About" on the home page of the repo and paste your book URL into the **Website** field that appears on the right.
 
