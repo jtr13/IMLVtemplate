@@ -1,15 +1,15 @@
-This is a template for the EDAV final project. It is based on the template created with *File, New Project..., New Directory, Book Project using bookdown* in RStudio. 
+This is a template for the IMLV final project. It is based on the template created with *File, New Project..., New Directory, Book Project using bookdown* in RStudio. 
 
 
 ## ABSOLUTE ESSENTIALS
 
-*If you have any difficulties or have feedback of any kind, please file an issue or communicate through [Discussions](https://github.com/jtr13/EDAVtemplate/discussions).*
+*If you have any difficulties or have feedback of any kind, please file an issue or communicate through [Discussions](https://github.com/jtr13/IMLVtemplate/discussions).*
 
 ### Copy this template
 
 - [ ] 1. Click the green "Use this template" button above.  DO NOT FORK THE REPO. Choose a descriptive name for your repo, such as "federalbudget" or "AIDSdeaths".  (If you change your mind before you do any work, delete your new repo and start over.)
 
-- [ ] 2. In the Description field, write: "Bookdown source files for EDAV final project".
+- [ ] 2. In the Description field, write: "Bookdown source files for IMLV final project".
 
 ### Set up GitHub Pages	
 - [ ] 1. On the home page of your repo, click Settings. Click the "Pages" section on the left. Change **Source** from **None** to **main**, change **/ (root)** to **/docs** folder, and click Save. Above the **Source** line, a bar will appear with your book's URL. The bar will initially be blue and indicate that your book is *ready* to be published and will change to green once it is published. Copy the URL. (Note that sometimes there is a delay until your book actually appears at that URL. If it doesn't appear after a few minutes, make a change and commit it to trigger a GitHub Pages build.)	
@@ -50,7 +50,7 @@ This is a template for the EDAV final project. It is based on the template creat
 
 Once you've completed these steps, delete the content of this **README** and add a short description of your project with a link to the book URL. It would be appreciated if you add the following to the end:	
 
-*This repo was initially generated from a bookdown template available here: https://github.com/jtr13/EDAVtemplate.*	
+*This repo was initially generated from a bookdown template available here: https://github.com/jtr13/IMLVtemplate.*	
 
 ### Demo Video	
 
