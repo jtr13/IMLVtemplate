@@ -9,11 +9,10 @@ language:
 
 rmd_files: [
   'index.Rmd',
-  'proposal.Rmd',
-  'data.Rmd',
-  'results.Rmd',
-  'interactive.Rmd',
-  'conclusion.Rmd'
+  'model1.Rmd',
+  'model2.Rmd',
+  'model3.Rmd',
+  'reflections.Rmd'
   ]
 
 
