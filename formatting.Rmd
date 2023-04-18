@@ -8,7 +8,13 @@
 
 ## Citations
 
-- Cite all text *and* code sources using markdown syntax: $[\text{link text}](\text{url})$
+- Cite all text sources using markdown syntax: $[\text{link text}](\text{url})$
+
+- Cite code sources as comments in your code chunks.
+
+```
+# From: https://github.com/pbiecek/ema/blob/master/07-iBreak-Down.Rmd#L255
+```
 
 ## Math
 
