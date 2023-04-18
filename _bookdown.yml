@@ -12,7 +12,8 @@ rmd_files: [
   'model1.Rmd',
   'model2.Rmd',
   'model3.Rmd',
-  'reflections.Rmd'
+  'reflections.Rmd',
+  'formatting.Rmd'
   ]
 
 

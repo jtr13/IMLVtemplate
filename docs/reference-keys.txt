@@ -1,5 +1,14 @@
+fig:hist1
 proposal
 model-1
 model-2
 model-3
 reflections
+formatting-tips
+code
+citations
+math
+plots
+figure-size
+figure-numbers
+resources

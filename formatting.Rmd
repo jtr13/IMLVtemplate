@@ -1,0 +1,80 @@
+# Formatting Tips
+
+*You should delete this file from your book and remove `bookdowntips.Rmd` from the `_bookdown.yml` file.
+
+## Code
+
+- Do not show code. This should happen automatically since `echo` is set to `FALSE` in `_common.R`.
+
+## Citations
+
+- Cite all text *and* code sources using markdown syntax: $[\text{link text}](\text{url})$
+
+## Math
+
+- Use MathJax / Latex format: [basic intro](https://rmd4sci.njtierney.com/math)
+
+- Enclose in single dollar signs for inline expressions: $a^2 + b^2 = c^2$
+
+- Enclose in double dollar signs for new line centered expressions: $$a^2 + b^2 = c^2$$
+
+- Use [hostmath.com](http://hostmath.com/) for a point and click interface to create LaTeX expressions
+
+## Plots
+
+### Figure size
+
+Set a default plot size by adding:
+
+```
+fig.width = 5,
+fig.height = 3.5
+```
+
+(You can adjust the numbers)
+
+to `knitr::opts_chunk$set()` in `_common.R`.
+
+Then as needed override one or more defaults in particular chunks:
+
+`{r, fig.width=8, fig.height=6}`
+
+In general, faceted plots should have larger sizes.
+
+Examples:
+
+```{r}
+library(ggplot2)
+ggplot(iris, aes(Sepal.Width, Sepal.Length)) + 
+  geom_point() + ggtitle("Default plot size (5 x 3.5)")
+```
+
+```{r, fig.width = 3, fig.height = 3, fig.cap=""}
+ggplot(iris, aes(Sepal.Width, Sepal.Length)) + 
+  geom_point() + ggtitle("In chunk options: \n `fig.width = 3, fig.height = 3`")
+```
+
+## Figure numbers
+
+- Include a chunk label *and* a figure caption `fig.cap` in the chunk options:
+
+```
+{r hist1, fig.cap = "Histogram of `Sepal.Width`"}
+```
+
+- Refer to the plot with the chunk label:
+
+Figure $\text{\@ref(fig:hist1)}$ shows...
+
+```{r hist1, fig.cap = "Histogram of `Sepal.Width`"}
+ggplot(iris, aes(Sepal.Width)) + 
+  geom_histogram(color = "blue", fill = "cornflowerblue")
+```
+
+Figure \@ref(fig:hist1) shows the distribution of `Sepal.Width` in the `iris` dataset.
+
+## Resources
+
+(More will be added)
+
+[Rmarkdown for Scientists](https://rmd4sci.njtierney.com/)
