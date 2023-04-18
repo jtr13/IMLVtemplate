@@ -3,5 +3,6 @@ knitr::opts_chunk$set(
   message = FALSE,
   warning = FALSE,
   fig.width = 5,
-  fig.height = 3
+  fig.height = 3.5,
+  error = TRUE
 )
